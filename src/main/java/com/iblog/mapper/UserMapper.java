@@ -42,4 +42,5 @@ public interface UserMapper {
      */
     User findByUid(Integer uid);
 
+    void findByUsername();
 }
